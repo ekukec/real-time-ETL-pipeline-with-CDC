@@ -63,6 +63,7 @@ python -m src.data_generator.generator
 # Terminal 3: Beam Pipeline
 python -m src.beam_pipeline.pipeline
 ```
+Important note: the pipeline will shutdown after processing 20 orders, to modify that number it is recommended to edit the max_num_records variable in the pipeline.py
 
 ## Project Structure
 ```
